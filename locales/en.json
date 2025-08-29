@@ -1,0 +1,13 @@
+{
+  "popup_title": "SEO Tag Auditor",
+  "scan_button": "Scan Page",
+  "settings_title": "Extension Settings",
+  "schema_label": "Default Schema Type",
+  "dummy_data_label": "Use Dummy Data",
+  "save_button": "Save Settings",
+  "meta_section": "Meta Tags",
+  "og_section": "Open Graph Tags",
+  "schema_section": "Schema Markup",
+  "no_data": "No data found on this page.",
+  "alert_saved": "Settings saved successfully!"
+}

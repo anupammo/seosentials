@@ -1,0 +1,39 @@
+{
+  "Article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Default Headline",
+    "description": "Default article description.",
+    "image": "https://example.com/default-article.jpg",
+    "author": {
+      "@type": "Person",
+      "name": "Author Name"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Your Brand",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://example.com/logo.png"
+      }
+    },
+    "mainEntityOfPage": "https://example.com/article"
+  },
+  "Product": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Default Product",
+    "image": "https://example.com/product.jpg",
+    "description": "Default product description.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Brand Name"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "99.99",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+}

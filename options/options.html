@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Extension Options</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>SEO Auditor Settings</h2>
+    <div class="controls">
+      <label for="schemaType">Default Schema Type:</label>
+      <select id="schemaType">
+        <option value="Article">Article</option>
+        <option value="Product">Product</option>
+        <option value="LocalBusiness">LocalBusiness</option>
+      </select>
+    </div>
+    <div class="controls">
+      <label>
+        <input type="checkbox" id="useDummyData" />
+        Use Dummy Data if Content Missing
+      </label>
+    </div>
+    <button id="saveBtn">Save Settings</button>
+  </div>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

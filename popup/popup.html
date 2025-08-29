@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SEO Auditor</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>SEO Meta & Schema Auditor</h2>
+    <div class="controls">
+      <label for="schemaType">Schema Type:</label>
+      <select id="schemaType">
+        <option value="Article">Article</option>
+        <option value="Product">Product</option>
+        <option value="LocalBusiness">LocalBusiness</option>
+      </select>
+      <button id="scanBtn">Scan Page</button>
+    </div>
+    <div id="results"></div>
+    <div class="actions">
+      <button id="copyMeta">Copy Meta Tags</button>
+      <button id="copyOG">Copy OG Tags</button>
+      <button id="copySchema">Copy Schema</button>
+    </div>
+  </div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
